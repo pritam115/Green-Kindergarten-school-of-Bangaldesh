@@ -1,0 +1,29 @@
+-- CREATE DATABASE studentportal;
+use studentportal;
+/*
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,          
+    name VARCHAR(255) NOT NULL,                
+    email VARCHAR(255) NOT NULL,                 
+    phone VARCHAR(15),                           
+    address TEXT,                             
+    courses TEXT,                               
+    instructors TEXT,
+    instructors_mail text,
+    grades TEXT,                                 
+    total_bill DECIMAL(10, 2) NOT NULL,          
+    amount_paid DECIMAL(10, 2) NOT NULL,         
+    amount_to_pay DECIMAL(10, 2) NOT NULL        
+);
+
+ALTER TABLE students
+ADD COLUMN father_name VARCHAR(255),
+ADD COLUMN mother_name VARCHAR(255),
+ADD COLUMN father_occupation VARCHAR(255),
+ADD COLUMN hometown VARCHAR(255),
+ADD COLUMN current_city VARCHAR(255),
+ADD COLUMN guardian_phone VARCHAR(20),
+ADD COLUMN religion VARCHAR(50),
+ADD COLUMN instructor_emails TEXT;
+*/
+
